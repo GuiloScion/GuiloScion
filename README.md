@@ -8,22 +8,44 @@ dual enrollment at Eastern Wyoming College.
 
 ## Active projects
 
-**[MechanicsDSL](https://github.com/MechanicsDSL/mechanicsdsl)** — A domain-specific
-language and compiler for physical systems. You write a Lagrangian or Hamiltonian
-in LaTeX-inspired syntax; the symbolic engine (built on SymPy) derives the
-equations of motion automatically, and the compiler generates simulation code
-in your choice of thirteen target languages. MIT licensed, on PyPI as
-`mechanicsdsl-core`.
+### MechanicsDSL
 
-**[NexusOS](https://github.com/GuiloScion/NexusOS)** — A small x86-64 operating
-system written from scratch. Custom bootloader, long-mode kernel, preemptive
-scheduler with mutex/semaphore/condvar synchronization, 4-level paging,
-FAT12 filesystem, and a compositing window manager. No GRUB, no Limine, no
-tutorial framework — every line original.
+A domain-specific language and compiler for physical systems. You write a
+Lagrangian or Hamiltonian in LaTeX-inspired syntax; the symbolic engine (built
+on SymPy) derives the equations of motion automatically, and the compiler
+generates simulation code in your choice of thirteen target languages. MIT
+licensed, on PyPI as `mechanicsdsl-core`.
 
-**Spin chain dynamics** — Analytical modeling of energy transfer and information
-flow in a boundary-driven nonequilibrium quantum spin chain. Writeup in
-preparation.
+- [mechanicsdsl](https://github.com/MechanicsDSL/mechanicsdsl) — Core compiler.
+  Write a Lagrangian, get a simulation. Thirteen code generation backends,
+  built on SymPy.
+- [mechanicsdsl-datasets](https://github.com/MechanicsDSL/mechanicsdsl-datasets) —
+  Reference datasets for physics parameter estimation and inverse problem
+  benchmarking.
+- [mechanicsdsl-embedded](https://github.com/MechanicsDSL/mechanicsdsl-embedded) —
+  Deploy MechanicsDSL simulations to Arduino, Raspberry Pi, and ARM edge
+  devices. Optimized C++ and no_std Rust for real-time closed-loop control.
+- [mechanicsdsl-ros2](https://github.com/MechanicsDSL/mechanicsdsl-ros2) —
+  Compile MechanicsDSL physical systems to ROS2 packages.
+- [mechanicsdsl-unity](https://github.com/MechanicsDSL/mechanicsdsl-unity) —
+  Simulation components for Unity and Unreal Engine, compiled from
+  MechanicsDSL notation.
+- [mechanicsdsl-notebooks](https://github.com/MechanicsDSL/mechanicsdsl-notebooks) —
+  Jupyter notebooks demonstrating MechanicsDSL across the supported physics
+  domains.
+
+### NexusOS
+
+[A small x86-64 operating system written from scratch.](https://github.com/GuiloScion/NexusOS)
+Custom bootloader, long-mode kernel, preemptive scheduler with mutex,
+semaphore, and condvar primitives, 4-level paging, FAT12 filesystem, and a
+compositing window manager. No GRUB, no Limine, no tutorial framework — every
+line original.
+
+### Spin chain dynamics
+
+Analytical modeling of energy transfer and information flow in a
+boundary-driven nonequilibrium quantum spin chain. Writeup in preparation.
 
 ## Publications
 
