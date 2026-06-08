@@ -30,7 +30,7 @@ preparation.
 Parsons, N. (2025). *Strategic Grid Modernization for Enhanced Energy Security
 and Industrial Competitiveness: A Multi-Pillar Framework for the United States.*
 Applied Journal of Economics, Law and Governance, 1(2), 149–171.
-[doi:10.57017/ajelg.v1.i2.03](https://doi.org/10.57017/ajelg.v1.i2.03)
+[doi:10.57017/ajelg.v1.i2(2).03](https://doi.org/10.57017/ajelg.v1.i2(2).03)
 
 ## Contact
 
