@@ -3,9 +3,6 @@
 I am Noah Parsons, an independent researcher in Newcastle, Wyoming, working
 across computational physics, systems software, and applied policy research.
 
-I am in high school, completing an Associate of Science concurrently through
-dual enrollment at Eastern Wyoming College.
-
 ## Active projects
 
 ### MechanicsDSL
@@ -13,11 +10,11 @@ dual enrollment at Eastern Wyoming College.
 A domain-specific language and compiler for physical systems. You write a
 Lagrangian or Hamiltonian in LaTeX-inspired syntax; the symbolic engine (built
 on SymPy) derives the equations of motion automatically, and the compiler
-generates simulation code in your choice of thirteen target languages. MIT
+generates simulation code in your choice of twelve target languages. MIT
 licensed, on PyPI as `mechanicsdsl-core`.
 
 - [mechanicsdsl](https://github.com/MechanicsDSL/mechanicsdsl) — Core compiler.
-  Write a Lagrangian, get a simulation. Thirteen code generation backends,
+  Write a Lagrangian, get a simulation. Twelve code generation backends,
   built on SymPy.
 - [mechanicsdsl-datasets](https://github.com/MechanicsDSL/mechanicsdsl-datasets) —
   Reference datasets for physics parameter estimation and inverse problem
@@ -42,16 +39,20 @@ semaphore, and condvar primitives, 4-level paging, FAT12 filesystem, and a
 compositing window manager. No GRUB, no Limine, no tutorial framework — every
 line original.
 
+Verification of Scientific Software
+
+A differential study of three rigid-body dynamics engines — MechanicsDSL, sympy.physics.mechanics, and Drake — adjudicated against a closed-form reference implemented in NumPy alone, sharing no library with any engine under test. A 55-case adversarial suite across six axes, frozen before measurement, covering three mechanism families, regular and chaotic regimes, and constrained and unconstrained pathways. An earlier phase found three silent failures in MechanicsDSL itself — lost parenthesisation in inlined denominators, a constrained-Lagrangian freeze, and an ARM backend emitting hardcoded dynamics regardless of input.
+
 ### Spin chain dynamics
 
 Analytical modeling of energy transfer and information flow in a
-boundary-driven nonequilibrium quantum spin chain. Writeup in preparation.
+boundary-driven nonequilibrium quantum spin chain.
 
 ## Publications
 
 Parsons, N. (2025). *Strategic Grid Modernization for Enhanced Energy Security
 and Industrial Competitiveness: A Multi-Pillar Framework for the United States.*
-Applied Journal of Economics, Law and Governance, 1(2), 149–171.
+Applied Journal of Economics, Law and Governance, 1(2), 149–172.
 [doi:10.57017/ajelg.v1.i2(2).03](https://doi.org/10.57017/ajelg.v1.i2(2).03)
 
 ## Contact
