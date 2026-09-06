@@ -36,12 +36,12 @@ licensed, on PyPI as `mechanicsdsl-core`.
 [A small x86-64 operating system written from scratch.](https://github.com/GuiloScion/NexusOS)
 Custom bootloader, long-mode kernel, preemptive scheduler with mutex,
 semaphore, and condvar primitives, 4-level paging, FAT12 filesystem, and a
-compositing window manager. No GRUB, no Limine, no tutorial framework — every
+compositing window manager. No GRUB, no Limine, no tutorial framework, every
 line original.
 
 ### Verification of Scientific Software
 
-A differential study of three rigid-body dynamics engines — MechanicsDSL, sympy.physics.mechanics, and Drake — adjudicated against a closed-form reference implemented in NumPy alone, sharing no library with any engine under test. A 55-case adversarial suite across six axes, frozen before measurement, covering three mechanism families, regular and chaotic regimes, and constrained and unconstrained pathways. An earlier phase found three silent failures in MechanicsDSL itself — lost parenthesisation in inlined denominators, a constrained-Lagrangian freeze, and an ARM backend emitting hardcoded dynamics regardless of input.
+A differential study of three rigid-body dynamics engines, MechanicsDSL, sympy.physics.mechanics, and Drake, adjudicated against a closed-form reference implemented in NumPy alone, sharing no library with any engine under test. A 55-case adversarial suite across six axes, frozen before measurement, covering three mechanism families, regular and chaotic regimes, and constrained and unconstrained pathways. An earlier phase found three silent failures in MechanicsDSL itself — lost parenthesisation in inlined denominators, a constrained-Lagrangian freeze, and an ARM backend emitting hardcoded dynamics regardless of input.
 
 ### Spin chain dynamics
 
